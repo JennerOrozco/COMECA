@@ -2320,5 +2320,21 @@ a:active.learn-btn{
 	color:#F37A1F;	
 }
 
+.region-hover:hover  {
+	color: #F37A1F;
+	opacity: 0.5;
+}
+
+.footer-border-stihl{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #F37A1F;
+	border-width: thin;
+}
+
+.hover-stihl li:hover a{	
+	background-color: #F37A1F !important;
+	color: white;
+	}
 
 /*========================Thank you=================
