@@ -20,6 +20,11 @@ body{
 	/*font-family: 'Monserrat';*/
 }
 
+.expandir{width: 60%;}
+
+.mover-derecha{
+	float:left!important
+}
 
 
 a,a:hover,a:active,a:focus {
@@ -603,7 +608,7 @@ html,body{
 
 
 .trapecio {
-    width: 60%;
+    width: 70%;
 	height: 0px;	
     border-right: 50px solid transparent;    
 	border-bottom: 50px solid #EEEEEE;
@@ -672,10 +677,13 @@ html,body{
 	margin-bottom: 30px;
 
 }
+.service-single-index{
+	margin-bottom:30px;
+}
 .servide-border{
 	border-right-style: solid;
 	border-right-color: #5CBCD4;
-	border-width: 3px;
+	border-width: 1.5px;
 }
 
 .service-img img{
@@ -683,7 +691,17 @@ html,body{
 	margin-top: 30px;
 }
 /*.service-txt*/
-.service-single {
+.service-single{
+	max-width: 304px;
+    margin: 0 auto;
+   	margin-bottom: 15px;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+	transition: .5s;
+}
+.service-single-index {
 	max-width: 304px;
     margin: 0 auto;
    	margin-bottom: 15px;
@@ -1750,9 +1768,9 @@ a:active.learn-btn{
 .footer-border{
 	border-right-style: solid;
 	border-right-color: #5CBCD4;
-	border-width: thin;
-	
+	border-width: thin;	
 }
+
 .foot-copyright{
 	color:#8b8b8b;
 	font-size:16px;
@@ -1761,8 +1779,7 @@ a:active.learn-btn{
 /* foot-menu  */
 .foot-menu ul li {
     float: left;
-	padding-left:15px;
-	margin-right: 10px;
+	padding: 15px;
     text-transform: capitalize;
 }
 
@@ -2294,8 +2311,11 @@ a:active.learn-btn{
 
 /*STIHL*/
 
+.nav-stihl li:hover a{
+	color: #F37A1F !important;
+	background-color: white;
 
-
+}
 .productos-border{
 	border-style: solid;
 	border-color: #F37A1F;
@@ -2304,11 +2324,16 @@ a:active.learn-btn{
 }
 .producto-txt{
 	width: 100%;
+	padding: 10px;
 	background-color: #F37A1F;
-	color: black !important;
 }
-.producto-txt:hover{	
+.producto-txt a{
+	font: bold;
 	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
 }
 
 .productos-border img{
@@ -2337,6 +2362,31 @@ a:active.learn-btn{
 	color: white;
 	}
 
+.seguridad-nav{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav:hover{
+	background-color: #F37A1F !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad,.service-single:hover img{	
+	color: white !important;
+	background-color: #F37A1F !important;	
+}
+
 /*===============================
     Tables
 ===============================*/
@@ -2348,3 +2398,600 @@ a:active.learn-btn{
 
 
 /*========================Thank you=================
+
+
+/*TORO*/
+
+.nav-toro li:hover a{
+	color: #cd2027 !important;
+	background-color: white;
+
+}
+.productos-border-toro{
+	border-style: solid;
+	border-color: #cd2027;
+	border-width: 3px;	
+	overflow: hidden;
+}
+.producto-txt-toro{
+	width: 100%;
+	padding: 10px;
+	background-color: #cd2027;
+}
+.producto-txt-toro a{
+	font: bold;
+	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
+}
+
+.productos-border-toro img{
+	width: 100%;
+	height: auto;
+  }
+
+.toro{
+	color:#cd2027;	
+}
+
+
+.footer-border-toro{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #cd2027;
+	border-width: thin;
+}
+
+.hover-toro li:hover a{	
+	background-color: #cd2027 !important;
+	color: white;
+	}
+
+.seguridad-nav-toro{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav-toro:hover{
+	background-color: #cd2027 !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad-toro{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad-toro h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad-toro,.service-single:hover img{	
+	color: white !important;
+	background-color: #cd2027 !important;	
+}
+
+
+
+
+
+
+
+
+/*MERCURY*/
+.nav-mercury li:hover a{
+	color: #cc1b2b !important;
+	background-color: white;
+
+}
+.productos-border-mercury{
+	border-style: solid;
+	border-color: #cc1b2b;
+	border-width: 3px;	
+	overflow: hidden;
+}
+.producto-txt-mercury{
+	width: 100%;
+	padding: 10px;
+	background-color: #cc1b2b;
+}
+.producto-txt-mercury a{
+	font: bold;
+	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
+}
+
+.productos-border-mercury img{
+	width: 100%;
+	height: auto;
+  }
+
+.mercury{
+	color:#cc1b2b;	
+}
+
+
+.footer-border-mercury{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #cc1b2b;
+	border-width: thin;
+}
+
+.hover-mercury li:hover a{	
+	background-color: #cc1b2b !important;
+	color: white;
+	}
+
+.seguridad-nav-mercury{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav-mercury:hover{
+	background-color: #cc1b2b !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad-mercury{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad-mercury h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad-mercury,.service-single:hover img{	
+	color: white !important;
+	background-color: #cc1b2b !important;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BAYLINER*/
+
+
+.nav-bayliner li:hover a{
+	color: #102c51 !important;
+	background-color: white;
+
+}
+.productos-border-bayliner{
+	border-style: solid;
+	border-color: #102c51;
+	border-width: 3px;	
+	overflow: hidden;
+}
+.producto-txt-bayliner{
+	width: 100%;
+	padding: 10px;
+	background-color: #102c51;
+}
+.producto-txt-bayliner a{
+	font: bold;
+	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
+}
+
+.productos-border-bayliner img{
+	width: 100%;
+	height: auto;
+  }
+
+.bayliner{
+	color:#102c51;	
+}
+
+
+.footer-border-bayliner{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #102c51;
+	border-width: thin;
+}
+
+.hover-bayliner li:hover a{	
+	background-color: #102c51 !important;
+	color: white;
+	}
+
+.seguridad-nav-bayliner{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav-bayliner:hover{
+	background-color: #102c51 !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad-bayliner{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad-bayliner h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad-bayliner,.service-single:hover img{	
+	color: white !important;
+	background-color: #102c51 !important;	
+}
+
+
+
+
+
+
+
+
+
+
+/*Talon*/
+
+
+.nav-talon li:hover a{
+	color: #000000 !important;
+	background-color: white;
+
+}
+.productos-border-talon{
+	border-style: solid;
+	border-color: #000000;
+	border-width: 3px;	
+	overflow: hidden;
+}
+.producto-txt-talon{
+	width: 100%;
+	padding: 10px;
+	background-color: #000000;
+}
+.producto-txt-talon a{
+	font: bold;
+	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
+}
+
+.productos-border-talon img{
+	width: 100%;
+	height: auto;
+  }
+
+.talon{
+	color:#000000;	
+}
+
+
+.footer-border-talon{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-width: thin;
+}
+
+.hover-talon li:hover a{	
+	background-color: #000000 !important;
+	color: white;
+	}
+
+.seguridad-nav-talon{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav-talon:hover{
+	background-color: #000000 !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad-talon{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad-talon h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad-talon,.service-single:hover img{	
+	color: white !important;
+	background-color: #000000 !important;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*LOVSON*/
+
+
+.nav-lovson li:hover a{
+	color: #d7232f !important;
+	background-color: white;
+
+}
+.productos-border-lovson{
+	border-style: solid;
+	border-color: #d7232f;
+	border-width: 3px;	
+	overflow: hidden;
+}
+.producto-txt-lovson{
+	width: 100%;
+	padding: 10px;
+	background-color: #d7232f;
+}
+.producto-txt-lovson a{
+	font: bold;
+	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
+}
+
+.productos-border-lovson img{
+	width: 100%;
+	height: auto;
+  }
+
+.lovson{
+	color:#d7232f;	
+}
+
+
+.footer-border-lovson{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #d7232f;
+	border-width: thin;
+}
+
+.hover-lovson li:hover a{	
+	background-color: #d7232f !important;
+	color: white;
+	}
+
+.seguridad-nav-lovson{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav-lovson:hover{
+	background-color: #d7232f !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad-lovson{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad-lovson h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad-lovson,.service-single:hover img{	
+	color: white !important;
+	background-color: #d7232f !important;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*COLUMBUS*/
+
+
+.nav-columbus li:hover a{
+	color: #0055fa !important;
+	background-color: white;
+
+}
+.productos-border-columbus{
+	border-style: solid;
+	border-color: #0055fa;
+	border-width: 3px;	
+	overflow: hidden;
+}
+.producto-txt-columbus{
+	width: 100%;
+	padding: 10px;
+	background-color: #0055fa;
+}
+.producto-txt-columbus a{
+	font: bold;
+	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
+}
+
+.productos-border-columbus img{
+	width: 100%;
+	height: auto;
+  }
+
+.columbus{
+	color:#0055fa;	
+}
+
+
+.footer-border-columbus{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #0055fa;
+	border-width: thin;
+}
+
+.hover-columbus li:hover a{	
+	background-color: #0055fa !important;
+	color: white;
+	}
+
+.seguridad-nav-columbus{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav-columbus:hover{
+	background-color: #0055fa !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad-columbus{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad-columbus h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad-columbus,.service-single:hover img{	
+	color: white !important;
+	background-color: #0055fa !important;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GENERAC*/
+
+
+.nav-generac li:hover a{
+	color: #c84e23 !important;
+	background-color: white;
+
+}
+.productos-border-generac{
+	border-style: solid;
+	border-color: #c84e23;
+	border-width: 3px;	
+	overflow: hidden;
+}
+.producto-txt-generac{
+	width: 100%;
+	padding: 10px;
+	background-color: #c84e23;
+}
+.producto-txt-generac a{
+	font: bold;
+	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
+}
+
+.productos-border-generac img{
+	width: 100%;
+	height: auto;
+  }
+
+.generac{
+	color:#c84e23;	
+}
+
+
+.footer-border-generac{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #c84e23;
+	border-width: thin;
+}
+
+.hover-generac li:hover a{	
+	background-color: #c84e23 !important;
+	color: white;
+	}
+
+.seguridad-nav-generac{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav-generac:hover{
+	background-color: #c84e23 !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad-generac{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad-generac h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad-generac,.service-single:hover img{	
+	color: white !important;
+	background-color: #c84e23 !important;	
+}
+
+.footer-a{
+	color:white !important;
+}
+.foot-menu  li:hover{	
+	background-color: #5CBCD4;
+	color: black !important;
+}
+.foot-menu  li:hover a{
+	color: black !important;
+}

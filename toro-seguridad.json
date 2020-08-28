@@ -1,0 +1,21 @@
+{
+    "Items": [{
+        "id": "1",
+		"prop": {
+            "title": "CORTACÉSPED 22 20378",
+            "image": "Toro/Toro Cortacespedes 20378.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+
+        }
+    },
+    {
+        "id": "2",
+		"prop": {
+            "title": "CORTACÉSPED 20 20319",
+			"image": "Toro/Toro Cortacespedes 20319.jpg",
+            "text1": "Motor 5,5 pies-lb de torque bruto 140cc Briggs & Stratton OHV",
+            "list": ["Potencia: 149 cc","Anchura de corte: 20 Pulgadas","Altura de Corte: 1 a 4","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 7 Detrás 8","Peso: 72 libras"]
+        }
+    }]    
+}

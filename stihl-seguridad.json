@@ -1,0 +1,84 @@
+{
+    "Items": [{
+        "id": "1",
+		"prop": {
+            "title": "ADVANCE X-VENT",
+            "image": "Stihl/Seguridad/Cascos/Stihl Casco Advance X-Vent.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    },
+    {
+        "id": "2",
+		"prop": {
+            "title": "AERO LIGHT",
+            "image": "Stihl/Seguridad/Cascos/Stihl Casco Aero Light.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    },
+    {
+        "id": "3",
+		"prop": {
+            "title": "DYNAMIC LIGHT",
+			"image": "Stihl/Seguridad/Cascos/Stihl Casco Dynamic Light.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    },
+    {
+        "id": "4",
+		"prop": {
+            "title": "EXPERT",
+			"image": "Stihl/Seguridad/Cascos/Stihl Casco Expert.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    },
+    {
+        "id": "5",
+		"prop": {
+            "title": "FUNCTION BASIC",
+			"image": "Stihl/Seguridad/Cascos/Stihl Casco Function Basic.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    },
+    {
+        "id": "6",
+		"prop": {
+            "title": "FUNCTION UNIVERSAL",
+			"image": "Stihl/Seguridad/Cascos/Stihl Casco Function Universal.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    },
+    {
+        "id": "7",
+		"prop": {
+            "title": "INTEGRA",
+			"image": "Stihl/Seguridad/Cascos/Stihl Casco Integra.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    },
+    {
+        "id": "8",
+		"prop": {
+            "title": "VENT PLUS",
+			"image": "Stihl/Seguridad/Cascos/Stihl Casco Vent Plus.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    },
+    {
+        "id": "9",
+		"prop": {
+            "title": "VENT PLUS FULL",
+            "image": "Stihl/Seguridad/Cascos/Stihl Casco Vent Plus full.jpg",
+            "text1": "Motor Kohler® XTX OHV, par bruto 6.75 pies-libra*, 149 cc, con estárter automático, sin necesidad de cebado o estárter, sin cambios de aceite.",
+            "list": ["Potencia: 149 cc","Anchura de corte: 22 Pulgadas","Altura de Corte: 1 a 4","Arranque: Retroceso","Sistema de transmisión: Tracción delantera","Material de la cubierta: Acero","Tipo de manillar: 1 pieza","Altura de la rueda: Delante 8 Detrás 11","Peso: 72 libras"]
+        }
+    }]
+    
+}
