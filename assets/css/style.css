@@ -246,7 +246,8 @@ html,body{
 	color: #fff;
 	/*font-family: 'Lato', sans-serif;*/
 	margin-top:8px;
-	padding-left: 27px;
+	padding-left: 23px;
+	padding-right: 23px;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
 	-ms-transition:.5s; 
@@ -396,7 +397,27 @@ html,body{
 	position:relative;
 	z-index:1;
 }
-.single-slide-item.slide-1:before,.single-slide-item.slide-2:before{	
+.single-slide-item.slide-3 {
+	background-image:url(../../assets/images/banner/banner3.jpg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-4 {
+	background-image:url(../../assets/images/banner/banner4.jpg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-5 {
+	background-image:url(../../assets/images/banner/banner5.jpg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-6 {
+	background-image:url(../../assets/images/banner/banner6.jpg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-1:before,.single-slide-item.slide-2:before,.single-slide-item.slide-3:before,.single-slide-item.slide-4:before,.single-slide-item.slide-5:before,.single-slide-item.slide-6:before{	
 	position:absolute;
 	left:0;
 	top:0;
@@ -609,7 +630,7 @@ html,body{
 
 .trapecio {
     width: 70%;
-	height: 0px;	
+	height: 0px;		
     border-right: 50px solid transparent;    
 	border-bottom: 50px solid #EEEEEE;
 	color: #1F405F;	
@@ -714,7 +735,8 @@ html,body{
 .service-txt h2 a{
 	color: #1F405F;	
 	font-size:24px;
-	/*font-family: 'Montserrat';*/
+	font-weight: bold;
+	font-family: 'Montserrat';
 	padding: 47px 0 25px;
 }
 .service-txt p {
@@ -1758,6 +1780,12 @@ a:active.learn-btn{
 }
 .ayuda h2{
 	color: #5CBCD4;	
+	font-size: x-large;
+	margin-bottom: 15px;
+}
+
+.ayuda p{
+	font-size: large;	
 }
 
 .footer-copyright {
@@ -2994,4 +3022,154 @@ a:active.learn-btn{
 }
 .foot-menu  li:hover a{
 	color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BAYLINER*/
+
+
+.nav-segurimax li:hover a{
+	color: #29874b !important;
+	background-color: white;
+
+}
+.productos-border-segurimax{
+	border-style: solid;
+	border-color: #29874b;
+	border-width: 3px;	
+	overflow: hidden;
+}
+.producto-txt-segurimax{
+	width: 100%;
+	padding: 10px;
+	background-color: #29874b;
+}
+.producto-txt-segurimax a{
+	font: bold;
+	color: white !important;
+}
+.service-single:hover a,.service-single:hover img{	
+	color: white !important;
+	opacity: 0.7;
+}
+
+.productos-border-segurimax img{
+	width: 100%;
+	height: auto;
+  }
+
+.segurimax{
+	color:#29874b;	
+}
+
+
+.footer-border-segurimax{
+	color: black;
+	border-right-style: solid;
+	border-right-color: #29874b;
+	border-width: thin;
+}
+
+.hover-segurimax li:hover a{	
+	background-color: #29874b !important;
+	color: white;
+	}
+
+.seguridad-nav-segurimax{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seguridad-nav-segurimax:hover{
+	background-color: #29874b !important;
+	color: white;
+}
+
+
+.producto-txt-seguridad-segurimax{
+	width: 100%;
+	padding: 10px;	
+}
+
+.producto-txt-seguridad-segurimax h2 a {
+	color: black !important;
+}
+
+.service-single:hover .producto-txt-seguridad-segurimax,.service-single:hover img{	
+	color: white !important;
+	background-color: #29874b !important;	
+}
+
+a h2{
+	font-weight: bold;
+	color: palevioletred;
+}
+
+.contactenos h2{
+	color: #1F405F;		
+	font-weight: bold;
+	font-family: 'Montserrat';	
+}
+
+.stihl{
+	font-weight: bold;
+}
+.toro{
+	font-weight: bold;
+}
+.bayliner{	
+	font-weight: bold;
+}
+
+.segurimax{	
+	font-weight: bold;
+}
+.generac{	
+	font-weight: bold;
+}
+.lovson{	
+	font-weight: bold;
+}
+.land{	
+	font-weight: bold;
+	color:#0055fa;	
+}
+.columbus{	
+	font-weight: bold;
+}
+.card-title{
+	color: #1F405F;		
+	font-weight: bold;	
+}
+
+.smooth-menu a{
+	font-weight: bold;	
+}
+
+
+.trapecio h2{
+	color: #1F405F;		
+	font-weight: bold;	
+	padding-top: 8px;
 }

@@ -15,7 +15,7 @@
         <title>COMECA</title>
 
         <!-- for title img -->
-		<link rel="shortcut icon" type="image/icon" href="assets/images/logo/favicon.png"/>
+		<link rel="shortcut icon" type="image/icon" href="assets/images/logo/logocomecainvertido.png"/>
        
         <!--font-awesome.min.css-->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -63,8 +63,8 @@
 						<li>
 							<div class="social-icon">
 								<ul>
-									<li><a href="https://www.facebook.com/ComecaGuatemala/"><i class="fa fa-facebook fa-2x"></i></a></li>
-									<li><a href="https://www.youtube.com/channel/UCykLHzs14THmytKFComn2Ig"><i class="fa fa-youtube-play fa-2x" ></i></a></li>									
+									<li><a target="_blank" href="https://www.facebook.com/ComecaGuatemala/"><i class="fa fa-facebook fa-2x"></i></a></li>
+									<li><a target="_blank" href="https://www.youtube.com/channel/UCykLHzs14THmytKFComn2Ig"><i class="fa fa-youtube-play fa-2x" ></i></a></li>									
 								</ul>
 							</div>
 						</li>						
@@ -72,8 +72,8 @@
 				</div>
 				<div class="header-right pull-right">
 					<ul>	
-							<li><input class="header-input" placeholder="Busqueda" type="text"></li>											
-							<li><a href="#"><i class="fa fa-search fa-lg"></i></a></li>						
+							<li><input id="busqueda" class="header-input" placeholder="Busqueda" type="text"></li>											
+							<li><a onclick="busqueda()"><i class="fa fa-search fa-lg"></i></a></li>
 						<li>
 							
 						</li>
@@ -95,7 +95,7 @@
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="position: absolute;right: 10px;text-align: right;">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="position: absolute;right: 1px;text-align: right; color: white;" onclick="down()">
 								<i style="color: white;text-align: right;" class="fa fa-th-large fa-2x"></i>								
 							</button>		
 							<div class="trapecio-Menu">
@@ -109,39 +109,36 @@
 						<div class="row" style="color: white;">
 							<div class="col-sm-4 col-xs-4 padd-none">
 								<div class=" text-center">
-									<div class="imagen-menu">
-										<a href="tel:+50222003500" style="color: white;">
-										<div class="row">
+									<div class="imagen-menu">										
+										<div class="row">											
 											<div class="col-sm-2 col-xs-12" style="padding: 0px;">
-												<img src="assets/images/contacto/telicon.jpg" alt="image of service" />
+												<a href="tel:+50222003500" style="color: white;"><img src="assets/images/contacto/telicon.jpg" alt="image of service" /></a>
 											</div>
 											<div class="col-sm-10 col-xs-12" style="padding: 0px;"> 
 												<div class="" style="padding-top: 15px;"> 											
-													<strong>Teléfono</strong>
+													<a href="tel:+50222003500" style="color: white;"><strong>Teléfono</strong></a>
 													<p class="none">(+502) 2200-3500</p>
 												</div>
 											</div>
 										</div>
-									</a>
 									</div>								
 								</div>
 							</div>
 							<div class="col-sm-4 col-xs-4 padd-none">
 								<div class="text-center">
 									<div class="imagen-menu">
-										<a href="mailto:comeca@comeca.com" style="color: white;">
+										
 										<div class="row">
 											<div class="col-sm-2 col-xs-12" style="padding: 0px;">
-												<img src="assets/images/contacto/mailicon.jpg" alt="image of service" />
+												<a href="mailto:comeca@comeca.com" style="color: white;"><img src="assets/images/contacto/mailicon.jpg" alt="image of service" /></a>
 											</div>
 											<div class="col-sm-10 col-xs-12" style="padding: 0px;">
 												<div class="" style="padding-top: 15px;"> 
-													<strong>E-Mail</strong>
+													<a href="mailto:comeca@comeca.com" style="color: white;"><strong>E-Mail</strong></a>
 													<p class="none">comeca@comeca.com</p>
 												</div>
 											</div>
-										</div>
-									</a>
+										</div>									
 									</div><!--/.service-img-->									
 								</div><!--/.service-single-->
 							</div><!--/.col-->
@@ -178,17 +175,20 @@
 									<a class='footer-border' href="index.html">INICIO</a>
 								</li>								
 								<li class="smooth-menu">
-									<a  id="a" class='footer-border' href="">MARCAS</a>
+									<a  id="a" class='footer-border' >MARCAS</a>
 									<div  id="b" class="dropdown">																				
-										  <ol><a href="stihl-maquinaria.html">STILH</a></ol>
+										  <ol><a href="stihl-maquinaria.html">STIHL</a></ol>
 										  <ol><a href="./toro-residencial.html">TORO</a></ol>
 										  <ol><a href="./mercury-90.html">MERCURY</a></ol>
 										  <ol><a href="./bayliner.html">BAYLINER</a></ol>
+										  <ol><a href="./LandNSea.html">LAND´N´SEA</a></ol>
+										  <ol><a href="./lanchasComeca.html">LANCHAS COMECA</a></ol>	
 										  
-										  <ol><a href="./talon.html">TALON</a></ol>
-										  <ol><a href="./generac-diesel.html">GENERAC</a></ol>
-										  <ol><a href="#">SEGURIMAX</a></ol>
-										  <ol><a href="./lovson.html">LOVSON</a></ol>									
+										  
+										  <ol><a href="./generac-portatiles.html">GENERAC</a></ol>										  
+											<ol><a href="./talon.html">TALON</a></ol>
+										  <ol><a href="./lovson.html">LOVSON</a></ol><ol><a href="./ColumbusMcKinnon.html">COLUMBUS MCKINNON</a></ol>
+											<ol><a href="segurimax.html">SEGURIMAX</a></ol>									
 									  </div> 
 								</li>									
 								<li  class="smooth-menu">
@@ -214,12 +214,12 @@
 				<div class="service-details">						
 					<div class="service-content-one">
 						<h2 class="talon">
-							TRANSPORTES
+							
 						</h2>
 						
 						<div class="service-content-one"></div>
 						<div class="row text-center hover-talon" style="background-color: #E3E3E3; font-weight: bold;" >
-							<div class="col-sm-4 col-xs-4 footer-border-talon seguridad-nav-talon" style="background-color: #000; color: white;" onclick="location.href = './talon.html';">
+							<div class="col-sm-6 col-xs-6 footer-border-talon seguridad-nav-talon" style="background-color: #000; color: white;" onclick="location.href = './talon.html';">
 								<h4>GENERADORES</h4>						
 							</div>
 							
@@ -248,27 +248,27 @@
 											  <div class="service-content-one"></div>
 											  <span id="datosTecnicos"></span>
 											  <div class="service-content-one"></div>
-											  <form onsubmit="return validateForm(this);" action="#"  style="background-color: #E3E3E3; padding: 15px;">
+											  <form id="form" onsubmit="return validateForm(this);" action="#"  style="background-color: #E3E3E3; padding: 15px;">
 												<h3 class="talo text-right">
 													COTIZAR
 												</h3>
 												<div class="form-group">
 												  <label for="Name">NOMBRE</label>
-												  <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="NOMBRE">
+												  <input required type="text" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="NOMBRE">
 												  
 												</div>
 												<div class="form-group">
 												  <label for="Mail">E-MAIL</label>
-												  <input type="email" class="form-control" id="Mail" placeholder="E-MAIL">
+												  <input required type="email" class="form-control" id="Mail" placeholder="E-MAIL">
 												  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu información con alguien mas.</small>
 												</div>
 												<div class="form-group">
 													<label for="Tel">TELEFONO</label>
-													<input type="text" class="form-control" id="Tel" aria-describedby="Telefono" placeholder="TELEFONO">													
+													<input required type="text" class="form-control" id="Tel" aria-describedby="Telefono" placeholder="TELEFONO">													
 												</div>												  
 												<div class="form-group">
 													<label for="Mensaje">MENSAJE</label>
-													<textarea class="form-control" id="Mensaje" rows="4" placeholder="MENSAJE"></textarea>													
+													<textarea required class="form-control" id="Mensaje" rows="4" placeholder="MENSAJE"></textarea>														
 												</div>
 												  
 												  
@@ -305,10 +305,10 @@
 					<div class="col-sm-8">
 						<div class="foot-menu pull-right">	  
 							<ul>
-								<li style="padding-right: 15px;"><a href="#" class="footer-a">INICIO</a></li>
+								<li style="padding-right: 15px;"><a href="index.html" class="footer-a">INICIO</a></li>
 								<li style="padding-right: 15px;  border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="#" class="footer-a">MARCAS</a></li>
-								<li style="padding-right: 15px; border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="#" class="footer-a">AYUDA</a></li>
-								<li style="padding-right: 15px; border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="#" class="footer-a">CONTACTO</a></li>
+								<li style="padding-right: 15px; border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="ayuda.html" class="footer-a">AYUDA</a></li>
+								<li style="padding-right: 15px; border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="contacto.html" class="footer-a">CONTACTO</a></li>
 							</ul>
 						</div><!-- /.foot-menu-->
 					</div><!--/.col-->
@@ -411,13 +411,70 @@ function validateForm(){
 	url: "./MailCotizacion.php",
 	data: data,
 	success: swal("Correo enviado!", "Hemos recibido tu mensaje y nos contactaremos lo antes posible contigo para darte la informacion!", "success")		
-	});
+	}); 
+document.getElementById("form").reset() 
+return false
 	
 	
 }
 </script>
 	
-</html>
+<script>
+	var input = document.getElementById("busqueda");
+	input.addEventListener("keyup", function(event) {  	
+  	if (event.keyCode === 13) {    			
+		busqueda()
+	}}
+	);
+	function busqueda(){
+		if (input.value){
+		location.href = './busqueda.html?busqueda=' + input.value;
+		}else{
+			alert("Ingresa un valor para realizar la busqueda")
+		}
+	}
+
+	function down(){
+		var y = $(window).scrollTop();  //your current y position on the page
+		$(window).scrollTop(y+150);
+	}
+
+	$('.menu').bind('touchstart', function(event){
+        event.stopPropagation(); /*Make all touch events stop at the .filters ul.children container element*/
+	});
+
+	$(".navbar-collapse a").click(function () {
+              $(".navbar-collapse").fadeOut(300); /*Close filters drop-downs if user taps on any link in drop-down*/
+    });
+
+</script>	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174929820-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174929820-1');
+</script>
+
+
+<!--  Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1138039353263292');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1138039353263292&ev=PageView&noscript=1"
+/></noscript>
+<!-- End  Code --></html>
 
 
 

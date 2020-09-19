@@ -158,20 +158,7 @@ $(document).ready(function(){
 
         });
 
-    
-    // 6. Smooth Scroll spy
-        
-        // $('.header-area').sticky({
-        //    topSpacing:0
-        // });
-        
-        //=============
-
-        
-        $('body').scrollspy({
-            target:'.navbar-collapse',
-            offset:0
-        });
+   
 		
 });	
 	

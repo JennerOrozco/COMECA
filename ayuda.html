@@ -23,7 +23,7 @@
         <title>COMECA</title>
 
         <!-- for title img -->
-		<link rel="shortcut icon" type="image/icon" href="assets/images/logo/favicon.png"/>
+		<link rel="shortcut icon" type="image/icon" href="assets/images/logo/logocomecainvertido.png"/>
        
         <!--font-awesome.min.css-->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -71,8 +71,8 @@
 						<li>
 							<div class="social-icon">
 								<ul>
-									<li><a href="https://www.facebook.com/ComecaGuatemala/"><i class="fa fa-facebook fa-2x"></i></a></li>
-									<li><a href="https://www.youtube.com/channel/UCykLHzs14THmytKFComn2Ig"><i class="fa fa-youtube-play fa-2x" ></i></a></li>									
+									<li><a target="_blank" href="https://www.facebook.com/ComecaGuatemala/"><i class="fa fa-facebook fa-2x"></i></a></li>
+									<li><a target="_blank" href="https://www.youtube.com/channel/UCykLHzs14THmytKFComn2Ig"><i class="fa fa-youtube-play fa-2x" ></i></a></li>									
 								</ul>
 							</div>
 						</li>						
@@ -80,8 +80,8 @@
 				</div>
 				<div class="header-right pull-right">
 					<ul>	
-							<li><input class="header-input" placeholder="Busqueda" type="text"></li>											
-							<li><a href="#"><i class="fa fa-search fa-lg"></i></a></li>						
+							<li><input id="busqueda" class="header-input" placeholder="Busqueda" type="text"></li>											
+							<li><a onclick="busqueda()"><i class="fa fa-search fa-lg"></i></a></li>
 						<li>
 							
 						</li>
@@ -103,7 +103,7 @@
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="position: absolute;right: 10px;text-align: right;">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="position: absolute;right: 1px;text-align: right; color: white;" onclick="down()">
 								<i style="color: white;text-align: right;" class="fa fa-th-large fa-2x"></i>								
 							</button>		
 							<div class="trapecio-Menu">
@@ -117,39 +117,36 @@
 						<div class="row" style="color: white;">
 							<div class="col-sm-4 col-xs-4 padd-none">
 								<div class=" text-center">
-									<div class="imagen-menu">
-										<a href="tel:+50222003500" style="color: white;">
-										<div class="row">
+									<div class="imagen-menu">										
+										<div class="row">											
 											<div class="col-sm-2 col-xs-12" style="padding: 0px;">
-												<img src="assets/images/contacto/telicon.jpg" alt="image of service" />
+												<a href="tel:+50222003500" style="color: white;"><img src="assets/images/contacto/telicon.jpg" alt="image of service" /></a>
 											</div>
 											<div class="col-sm-10 col-xs-12" style="padding: 0px;"> 
 												<div class="" style="padding-top: 15px;"> 											
-													<strong>Teléfono</strong>
+													<a href="tel:+50222003500" style="color: white;"><strong>Teléfono</strong></a>
 													<p class="none">(+502) 2200-3500</p>
 												</div>
 											</div>
 										</div>
-									</a>
 									</div>								
 								</div>
 							</div>
 							<div class="col-sm-4 col-xs-4 padd-none">
 								<div class="text-center">
 									<div class="imagen-menu">
-										<a href="mailto:comeca@comeca.com" style="color: white;">
+										
 										<div class="row">
 											<div class="col-sm-2 col-xs-12" style="padding: 0px;">
-												<img src="assets/images/contacto/mailicon.jpg" alt="image of service" />
+												<a href="mailto:comeca@comeca.com" style="color: white;"><img src="assets/images/contacto/mailicon.jpg" alt="image of service" /></a>
 											</div>
 											<div class="col-sm-10 col-xs-12" style="padding: 0px;">
 												<div class="" style="padding-top: 15px;"> 
-													<strong>E-Mail</strong>
+													<a href="mailto:comeca@comeca.com" style="color: white;"><strong>E-Mail</strong></a>
 													<p class="none">comeca@comeca.com</p>
 												</div>
 											</div>
-										</div>
-									</a>
+										</div>									
 									</div><!--/.service-img-->									
 								</div><!--/.service-single-->
 							</div><!--/.col-->
@@ -186,17 +183,20 @@
 									<a class='footer-border' href="index.html">INICIO</a>
 								</li>								
 								<li class="smooth-menu">
-									<a  id="a" class='footer-border' href="">MARCAS</a>
+									<a  id="a" class='footer-border' >MARCAS</a>
 									<div  id="b" class="dropdown">																				
-										  <ol><a href="stihl-maquinaria.html">STILH</a></ol>
+										  <ol><a href="stihl-maquinaria.html">STIHL</a></ol>
 										  <ol><a href="./toro-residencial.html">TORO</a></ol>
 										  <ol><a href="./mercury-90.html">MERCURY</a></ol>
 										  <ol><a href="./bayliner.html">BAYLINER</a></ol>
+										  <ol><a href="./LandNSea.html">LAND´N´SEA</a></ol>
+										  <ol><a href="./lanchasComeca.html">LANCHAS COMECA</a></ol>	
 										  
-										  <ol><a href="./talon.html">TALON</a></ol>
-										  <ol><a href="./generac-diesel.html">GENERAC</a></ol>
-										  <ol><a href="#">SEGURIMAX</a></ol>
-										  <ol><a href="./lovson.html">LOVSON</a></ol>									
+										  
+										  <ol><a href="./generac-portatiles.html">GENERAC</a></ol>										  
+											<ol><a href="./talon.html">TALON</a></ol>
+										  <ol><a href="./lovson.html">LOVSON</a></ol><ol><a href="./ColumbusMcKinnon.html">COLUMBUS MCKINNON</a></ol>
+											<ol><a href="segurimax.html">SEGURIMAX</a></ol>									
 									  </div> 
 								</li>									
 								<li  class="smooth-menu">
@@ -216,47 +216,150 @@
 		<section class="contacto">
 		<div class="container">
 			<div class="contactenos">
-				<h2>
-				AYUDA
-				</h2>
+				<h2>VENTAS</h2>
 			</div>
 			<div class="row" style="color: black; padding: 25px;">
 				<div class="col-sm-12 col-xs-12">					
 						<div class="ayuda">
-						  <h2>¿CUANTO CUESTA EL ENVIO?</h2>
-						  <p> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>						  
+						  <h2>¿CUÁL ES EL TIEMPO DE GARANTÍA DE LOS EQUIPOS?</h2>
+						  <p> 3 meses, por posible defecto de fábrica. COMECA no se ha responsable por defecto de mal uso.</p>						  
 						</div>
 				</div>
 				<div class="col-sm-12 col-xs-12">					
 						<div class="ayuda">
-							<h2>¿CUANTO TARDA EL ENVIO?</h2>
-							<p> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>						  
+							<h2>¿TIENEN ENTREGA A DOMICILIO?</h2>
+							<p> No. Podemos hacerle llegar su pedido por el medio de transporte de su preferencia</p>						  
 						</div>
 				</div>
 				<div class="col-sm-12 col-xs-12">										
 						<div class="ayuda">
-							<h2>¿COMO PUEDO CONSULTAR EL ETSADO DE MI PEDIDO?</h2>
-							<p> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>						  
+							<h2>¿CUÁLES SON LAS FORMAS DE PAGO?</h2>
+							<p> Al contado, tarjeta de débito, tarjeta de crédito, cheque previo cobro.</p>						  
 						</div>
 				</div>
 				<div class="col-sm-12 col-xs-12">					
 						<div class="ayuda">
-							<h2>¿SE HACEN ENVIOS AL INTERIOR DEL PAIS?</h2>
-							<p> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>						  
+							<h2>¿TIENE RECARGO PAGAR CON TARJETA DE CRÉDITO?</h2>
+							<p> Al realizar su compra con tarjeta de crédito no tiene ningún recargo adicional</p>						  
 						</div>
 				</div>
 				<div class="col-sm-12 col-xs-12">											
 
 						<div class="ayuda">
-							<h2>¿HAY UN MINIMO DE COMPRA PARA HACER EL ENVIO?</h2>
-							<p> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>						  
-						</div>						  
+							<h2>¿COMECA TIENE MÁS SUCURSALES?</h2>
+							<p> Contamos sólo con una sucursal ubicada en el Puerto San José y con más de 90 distribuidores en todo el país.</p>						  
+						</div>						
+						
 				</div>
+				<div class="col-sm-12 col-xs-12">											
+
+					<div class="ayuda">
+						<h2>¿CÓMO PUEDO SER DISTRIBUIDOR U OBTENER PRECIOS DE REVENTA CON ALGÚN CÓDIGO?</h2>
+						<p> Nuestras marcas cuentan con políticas condicionantes como requisito previo a la representación de cada una.</p>						  
+					</div>
+					
+			</div>
+				
 					
 				</div>
 				
 		</div>		
-		</section><!--/.about-us-->
+		
+		
+		
+			<div class="container">
+				<div class="contactenos">
+					<h2>SERVICIO TÉCNICO</h2>
+				</div>
+				<div class="row" style="color: black; padding: 25px;">
+					<div class="col-sm-12 col-xs-12">					
+							<div class="ayuda">
+							  <h2>¿CUÁL ES EL COSTO PARA OBTENER EL PRESUPUESTO DE REPARACIÓN DE ALGÚN EQUIPO?</h2>
+							  <p> La reparación de un equipo debe ser previamente evaluada, El valor de este servicio puede varias dependiendo del modelo de cada máquina. Después de la evaluación se extenderá un informe para proceder a la reparación solicitada. El costo del presupuesto se descuenta de la reparación si esta se autoriza.</p>						  
+							</div>
+					</div>
+					<div class="col-sm-12 col-xs-12">					
+							<div class="ayuda">
+								<h2>¿CUÁL ES EL PRECIO DE REPARACIÓN DE LOS EQUIPOS?</h2>
+								<p> El costo de reparación varía dependiendo de la falla y los repuestos que se necesiten.</p>						  
+							</div>
+					</div>
+					<div class="col-sm-12 col-xs-12">										
+							<div class="ayuda">
+								<h2>¿QUÉ OTRAS OPCIONES DE ACEITE SE PUEDE UTILIZAR PARA LA MEZCLA DE COMBUSTIBLE STIHL?</h2>
+								<p> Para el correcto cuidado de su equipo únicamente recomendamos el uso del Aceite dos tiempos STIHL.</p>						  
+							</div>
+					</div>
+					<div class="col-sm-12 col-xs-12">					
+							<div class="ayuda">
+								<h2>¿CUÁNTO TIEMPO TARDA LA REPARACIÓN DE UNA MÁQUINA?</h2>
+								<p> El tiempo estimado de reparación de un equipo es de 3 a 5 días hábiles.</p>						  
+							</div>
+					</div>
+					<div class="col-sm-12 col-xs-12">											
+	
+							<div class="ayuda">
+								<h2>¿CON QUÉ FRECUENCIA DEBO REALIZARLE SERVICIO A MI EQUIPO STIHL?</h2>
+								<p> Para un desempeño óptimo de su equipo STIHL se recomienda realizar servicio al equipo cada 600 horas de trabajo.</p>						  
+							</div>						  
+					</div>
+
+					<div class="col-sm-12 col-xs-12">											
+	
+						<div class="ayuda">
+							<h2>¿CUÁL ES EL MANTENIMIENTO ADECUADO PARA LOS EQUIPOS?</h2>
+							<p> Mantenimiento preventivo: Cada 300 horas de trabajo.</p>						  
+							<p> Mantenimiento correctivo: Cada 600 horas de trabajo.</p>						  
+							<p> Para un mejor rendimiento se deben seguir las recomendaciones del fabricante que se encuentran en el manual del usuario.</p>						  
+						</div>						  
+				</div>
+
+				<div class="col-sm-12 col-xs-12">											
+	
+					<div class="ayuda">
+						<h2>¿CUÁL ES LA MEZCLA ADECUADA DEL COMBUSTIBLE PARA LOS EQUIPOS STIHL?</h2>
+						<p> 100 ml por 1 galón de gasolina REGULAR.</p>						  
+					</div>						  
+				</div>
+						
+			</div>
+
+			
+				<div class="contactenos">
+					<h2>DESPACHO</h2>
+				</div>
+				<div class="row" style="color: black; padding: 25px;">
+					<div class="col-sm-12 col-xs-12">					
+							<div class="ayuda">
+							  <h2>¿CUÁNTOS DÍAS TARDA EN LLEGAR MI PEDIDO?</h2>
+							  <p> 2 a 3 días hábiles a partir de su cancelación. Este tiempo también puede variar según la empresa de transporte que se solicite.</p>						  
+							</div>
+					</div>
+					<div class="col-sm-12 col-xs-12">					
+							<div class="ayuda">
+								<h2>¿CÓMO PUEDO CONSULTAR EL ESTADO DE MI PEDIDO?</h2>
+								<p> Con el número de factura puede consultar al agente de ventas que le atendió para darle seguimiento a su pedido.</p>						  
+							</div>
+					</div>
+					<div class="col-sm-12 col-xs-12">										
+							<div class="ayuda">
+								<h2>¿REALIZAN ENVÍOS AL INTERIOR DEL PAÍS?</h2>
+								<p> COMECA efectúa envío de productos previa cancelación del cliente, con las empresas de transporte ubicadas en el casco urbano de la Ciudad de Guatemala. También es posible que los productos sean recogidos por un tercero que maneje carga y encomiendas desde nuestra oficina central en Calzada Aguilar Batres zona 12, presentando la nota de autorización e identificación correspondiente.</p>						  
+							</div>
+					</div>
+					<div class="col-sm-12 col-xs-12">					
+							<div class="ayuda">
+								<h2>¿CUÁL ES EL MÍNIMO DE COMPRA PARA REALIZAR MI PEDIDO?</h2>
+								<p> No hay mínimo de compra para poder realizar un pedido.</p>						  
+							</div>
+					</div>
+						
+
+					
+			</div>		
+			</section><!--/.about-us-->
+
+		
 
 		
 		
@@ -276,10 +379,10 @@
 					<div class="col-sm-8">
 						<div class="foot-menu pull-right">	  
 							<ul>
-								<li style="padding-right: 15px;"><a href="#" class="footer-a">INICIO</a></li>
+								<li style="padding-right: 15px;"><a href="index.html" class="footer-a">INICIO</a></li>
 								<li style="padding-right: 15px;  border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="#" class="footer-a">MARCAS</a></li>
-								<li style="padding-right: 15px; border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="#" class="footer-a">AYUDA</a></li>
-								<li style="padding-right: 15px; border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="#" class="footer-a">CONTACTO</a></li>
+								<li style="padding-right: 15px; border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="ayuda.html" class="footer-a">AYUDA</a></li>
+								<li style="padding-right: 15px; border-left-style: solid;border-color: #5CBCD4;border-width: thin;"><a href="contacto.html" class="footer-a">CONTACTO</a></li>
 							</ul>
 						</div><!-- /.foot-menu-->
 					</div><!--/.col-->
@@ -336,7 +439,62 @@
 
     </body>
 	
-</html>
+<script>
+	var input = document.getElementById("busqueda");
+	input.addEventListener("keyup", function(event) {  	
+  	if (event.keyCode === 13) {    			
+		busqueda()
+	}}
+	);
+	function busqueda(){
+		if (input.value){
+		location.href = './busqueda.html?busqueda=' + input.value;
+		}else{
+			alert("Ingresa un valor para realizar la busqueda")
+		}
+	}
+
+	function down(){
+		var y = $(window).scrollTop();  //your current y position on the page
+		$(window).scrollTop(y+150);
+	}
+
+	$('.menu').bind('touchstart', function(event){
+        event.stopPropagation(); /*Make all touch events stop at the .filters ul.children container element*/
+	});
+
+	$(".navbar-collapse a").click(function () {
+              $(".navbar-collapse").fadeOut(300); /*Close filters drop-downs if user taps on any link in drop-down*/
+    });
+
+</script>	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174929820-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174929820-1');
+</script>
+
+
+<!--  Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1138039353263292');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1138039353263292&ev=PageView&noscript=1"
+/></noscript>
+<!-- End  Code --></html>
 
 
 

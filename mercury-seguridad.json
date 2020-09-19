@@ -119,7 +119,7 @@
         "id": "13",
 		"prop": {
             "title": "SEAPRO 75 HP",
-			"image": ".Mercury/115 – 300 HP/4 Tiempos/Mercury 75HP FourStroke SeaPro.jpg",
+			"image": "./Mercury/115 – 300 HP/4 Tiempos/Mercury 75HP FourStroke SeaPro.jpg",
             "text1": "",
             "list": ["Aceleración Máxima: 5000-5500 (RPM)",
                 "Motor: 4 Cilindros",
